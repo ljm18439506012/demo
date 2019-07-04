@@ -36,7 +36,7 @@ public class Task {
 
     @Async("taskExecutor")
     public Future<String > doTaskThree() throws Exception {
-        System.out.println("开始做任务三");
+        System.out.println("开始做任务三三");
         long start = System.currentTimeMillis();
         Thread.sleep(random.nextInt(10000));
         long end = System.currentTimeMillis();
